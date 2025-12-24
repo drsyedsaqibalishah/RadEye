@@ -1,3 +1,11 @@
-# X-ray
+# X-ray Notes
 
-Notes, reference images, and interpretation tips for X-ray. Add cases, protocols, and teaching points here.
+X-ray interpretation notes covering common and high-yield exam topics.
+
+## Includes
+- Chest X-ray approach and patterns
+- Abdominal radiographs
+- MSK trauma basics
+- Frequently tested signs
+
+Emphasis is on systematic reading and examiner-favored findings.
