@@ -1,0 +1,191 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RadEye | One‑Stop Radiology Exam Hub</title>
+  <meta name="description" content="RadEye – a free, one‑stop solution for radiology exams, notes, cases, MCQs, and resources." />
+  <style>
+    :root {
+      --primary:#0f4c75;
+      --secondary:#3282b8;
+      --accent:#bbe1fa;
+      --dark:#1b262c;
+      --light:#f5f7fa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin:0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+      background: var(--light);
+      color: var(--dark);
+      line-height:1.6;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color:white;
+      padding:3rem 1.5rem;
+      text-align:center;
+    }
+    header h1 {
+      font-size:2.5rem;
+      margin-bottom:0.5rem;
+      letter-spacing:1px;
+    }
+    header p {
+      max-width:700px;
+      margin:0 auto 1.5rem;
+      opacity:0.95;
+    }
+    nav {
+      background:white;
+      position:sticky;
+      top:0;
+      z-index:10;
+      box-shadow:0 2px 6px rgba(0,0,0,0.08);
+    }
+    nav ul {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      margin:0;
+      padding:0.5rem;
+      list-style:none;
+    }
+    nav li { margin:0.25rem 0.75rem; }
+    nav a {
+      text-decoration:none;
+      color:var(--primary);
+      font-weight:600;
+    }
+    nav a:hover { color:var(--secondary); }
+    section {
+      padding:3rem 1.5rem;
+      max-width:1100px;
+      margin:auto;
+    }
+    .section-title {
+      text-align:center;
+      margin-bottom:2rem;
+    }
+    .section-title h2 {
+      font-size:2rem;
+      margin-bottom:0.5rem;
+    }
+    .grid {
+      display:grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+      gap:1.5rem;
+    }
+    .card {
+      background:white;
+      padding:1.5rem;
+      border-radius:12px;
+      box-shadow:0 6px 18px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow:0 12px 24px rgba(0,0,0,0.12);
+    }
+    .card h3 { margin-top:0; color:var(--primary); }
+    .cta {
+      background:var(--primary);
+      color:white;
+      text-align:center;
+      padding:3rem 1.5rem;
+    }
+    .cta h2 { margin-bottom:0.5rem; }
+    .cta p { max-width:700px; margin:0 auto 1.5rem; }
+    .cta a {
+      display:inline-block;
+      background:white;
+      color:var(--primary);
+      padding:0.75rem 1.5rem;
+      border-radius:30px;
+      font-weight:700;
+      text-decoration:none;
+    }
+    .cta a:hover { background:var(--accent); }
+    footer {
+      background:var(--dark);
+      color:#ccc;
+      text-align:center;
+      padding:1.5rem;
+      font-size:0.9rem;
+    }
+    footer span { color:var(--accent); }
+  </style>
+</head>
+<body><header>
+  <h1>RadEye</h1>
+  <p>A one‑stop solution for radiology exams, concepts, cases, and confidence. Clear images. Clear thinking. Clear results.</p>
+</header><nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#exams">Exams</a></li>
+    <li><a href="#notes">Notes</a></li>
+    <li><a href="#cases">Cases</a></li>
+    <li><a href="#mcqs">MCQs</a></li>
+    <li><a href="#resources">Resources</a></li>
+  </ul>
+</nav><section id="about">
+  <div class="section-title">
+    <h2>Why RadEye?</h2>
+    <p>Built by doctors, for doctors in training.</p>
+  </div>
+  <p style="max-width:800px;margin:auto;text-align:center;">
+    RadEye is designed to simplify radiology preparation. Instead of chasing scattered PDFs, random videos, and half‑remembered notes, everything lives here — structured, exam‑oriented, and clinically relevant.
+  </p>
+</section><section id="exams">
+  <div class="section-title">
+    <h2>Exam‑Focused Prep</h2>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>FCPS</h3><p>Pattern‑based prep, viva tips, and commonly repeated topics.</p></div>
+    <div class="card"><h3>MD / MS</h3><p>System‑wise imaging review aligned with university exams.</p></div>
+    <div class="card"><h3>PLAB / USMLE</h3><p>High‑yield imaging concepts tested internationally.</p></div>
+  </div>
+</section><section id="notes">
+  <div class="section-title">
+    <h2>Concise Notes</h2>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>X‑ray</h3><p>Chest, abdomen, MSK, trauma patterns.</p></div>
+    <div class="card"><h3>Ultrasound</h3><p>Protocols, measurements, pitfalls, and reporting tips.</p></div>
+    <div class="card"><h3>CT & MRI</h3><p>Sequences, signs, and structured interpretation.</p></div>
+  </div>
+</section><section id="cases">
+  <div class="section-title">
+    <h2>Real‑World Cases</h2>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Classic Cases</h3><p>Must‑know exam favorites with imaging pearls.</p></div>
+    <div class="card"><h3>Tricky Mimics</h3><p>Conditions that love to confuse examiners and candidates alike.</p></div>
+    <div class="card"><h3>Reporting Practice</h3><p>Think, see, and report like a radiologist.</p></div>
+  </div>
+</section><section id="mcqs">
+  <div class="section-title">
+    <h2>MCQs & Rapid Review</h2>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Topic‑wise MCQs</h3><p>Immediate feedback with explanations.</p></div>
+    <div class="card"><h3>Image‑Based Questions</h3><p>Train your eye, not just your memory.</p></div>
+    <div class="card"><h3>Last‑Minute Revision</h3><p>High‑yield lists before exams.</p></div>
+  </div>
+</section><section id="resources">
+  <div class="section-title">
+    <h2>Curated Resources</h2>
+  </div>
+  <div class="grid">
+    <div class="card"><h3>Books</h3><p>What to read, what to skip, and why.</p></div>
+    <div class="card"><h3>Videos</h3><p>Trusted channels and lectures — no noise.</p></div>
+    <div class="card"><h3>Guidelines</h3><p>ACR, RCR, and exam‑relevant protocols.</p></div>
+  </div>
+</section><div class="cta">
+  <h2>Free. Focused. Radiology‑First.</h2>
+  <p>RadEye is a living project. It grows with feedback, cases, and shared learning.</p>
+  <a href="#">Start Exploring</a>
+</div><footer>
+  <p>© 2025 <span>RadEye</span> • Built for radiology learners • Free forever</p>
+</footer></body>
+</html>
