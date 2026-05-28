@@ -26,7 +26,7 @@ Built **by doctors, for doctors in training**.
 
 - Medical students
 - Radiology residents and trainees
-- Doctors preparing for radiology-related exams (FCPS, MD/MS, PLAB, USMLE)
+- Doctors preparing for radiology-related exams (FCPS,MCPS,FRCR, MD/MS, PLAB, USMLE)
 - Anyone seeking structured radiology learning
 
 ---
@@ -105,7 +105,7 @@ You are free to share and adapt the content **with attribution**, but **commerci
 
 ## ✍️ Author
 
-**Dr. Saqib Ali Shah**  
+**Dr. Syed Saqib Ali Shah**  
 Radiology & medical education
 
 ---
