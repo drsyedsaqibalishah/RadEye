@@ -1,0 +1,33 @@
+Core Chest CT Acquisition Principles
+
+Spiral / Helical CT
+Continuous acquisition while patient moves through gantry
+Entire chest acquired in a single breath-hold
+
+Reduces:
+motion artifact
+misregistration
+skip areas
+
+Enables:
+CT angiography
+multiplanar reconstructions
+overlapping thin slices 
+
+Multidetector CT (MDCT)
+Modern scanners use 256 to 320 detector rows
+Allows contiguous thin-section acquisition of the entire thorax
+1 mm isotropic voxels enable:
+sagittal/coronal reformats
+3D reconstructions
+virtual bronchoscopy
+CT angiography 
+
+Standard Chest CT Protocol
+Indications
+Pulmonary nodules
+Infection
+ILD
+Malignancy staging
+Pleural disease
+Airway disease
